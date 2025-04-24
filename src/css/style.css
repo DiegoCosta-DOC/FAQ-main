@@ -1,0 +1,5 @@
+body {
+    background: hsl(275, 100%,  97%) url(../assets/images/background-pattern-desktop.svg) no-repeat center top;
+    background-size: auto, auto 40vh;
+    font-family: 'Work Sans', sans-serif;
+}
