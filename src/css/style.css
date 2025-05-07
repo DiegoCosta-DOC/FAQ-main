@@ -2,6 +2,7 @@ body {
     background: hsl(275, 100%, 97%) url(../assets/images/background-pattern-desktop.svg) no-repeat center top;
     background-size: auto, auto 40vh;
     font-family: 'Work Sans', sans-serif;
+    text-align: center;
 }
 
 footer {
@@ -9,14 +10,13 @@ footer {
 }
 
 .container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    /* background-color: #ffffff; */
-    height: 60vh;
-    max-width: 1200px;
-    gap: 2rem;
+    background: #fff;
+    color: #000;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+    align-self: center;
 }
 
 .header__container {
